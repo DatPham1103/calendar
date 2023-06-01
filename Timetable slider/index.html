@@ -1,296 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Simple Slider</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./app.css" />
-  </head>
-  <body>
-    <div class="slider">
-      <i class="fa fa-angle-left slider-prev"></i>
-      
-      <div class="slider-wrapper">
-        <div class="slider-main">
-      
-          <div class="slider-item">         
-            <table>
-              <th class="pt-name" colspan="8">Fullname</th>
-              <tr>
-                <th>Time</th>
-                <th class="day-mon">Monday</th>
-                <th class="day-tue">Tuesday</th>
-                <th class="day-wed">Wednesday</th>
-                <th class="day-thu">Thursday</th>
-                <th class="day-fri">Friday</th>
-                <th class="day-sat">Saturday</th>
-                <th class="day-sun">Sunday</th>
-              </tr>
-              <tr>
-                <td class="time-slot">7:00-9:00</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">9:30-11:30</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">12:00-2:00</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">2:30-4:30</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">5:00-7:00</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-            </table>
-          </div>
-          <div class="slider-item">
-            <table>
-              <th class="pt-name" colspan="8">Fullname</th>
-              <tr>
-                <th>Time</th>
-                <th class="day-mon">Monday</th>
-                <th class="day-tue">Tuesday</th>
-                <th class="day-wed">Wednesday</th>
-                <th class="day-thu">Thursday</th>
-                <th class="day-fri">Friday</th>
-                <th class="day-sat">Saturday</th>
-                <th class="day-sun">Sunday</th>
-              </tr>
-              <tr>
-                <td class="time-slot">7:00-9:00</td>
-                <td class="day"></td>
-                <td class="day-busy"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">9:30-11:30</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day-busy"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">12:00-2:00</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day-busy"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">2:30-4:30</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day-busy"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">5:00-7:00</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-            </table>
-          </div>
-          <div class="slider-item">
-            <table>
-              <th class="pt-name" colspan="8">Fullname</th>
-              <tr>
-                <th>Time</th>
-                <th class="day-mon">Monday</th>
-                <th class="day-tue">Tuesday</th>
-                <th class="day-wed">Wednesday</th>
-                <th class="day-thu">Thursday</th>
-                <th class="day-fri">Friday</th>
-                <th class="day-sat">Saturday</th>
-                <th class="day-sun">Sunday</th>
-              </tr>
-              <tr>
-                <td class="time-slot">7:00-9:00</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">9:30-11:30</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">12:00-2:00</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">2:30-4:30</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">5:00-7:00</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-            </table>
-          </div>
-          <div class="slider-item">
-            <table>
-              <th class="pt-name" colspan="8">Fullname</th>
-              <tr>
-                <th>Time</th>
-                <th class="day-mon">Monday</th>
-                <th class="day-tue">Tuesday</th>
-                <th class="day-wed">Wednesday</th>
-                <th class="day-thu">Thursday</th>
-                <th class="day-fri">Friday</th>
-                <th class="day-sat">Saturday</th>
-                <th class="day-sun">Sunday</th>
-              </tr>
-              <tr>
-                <td class="time-slot">7:00-9:00</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day-busy"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">9:30-11:30</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day-busy"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">12:00-2:00</td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day-busy"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">2:30-4:30</td>
-                <td class="day"></td>
-                <td class="day-busy"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-              <tr>
-                <td class="time-slot">5:00-7:00</td>
-                <td class="day-busy"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-                <td class="day"></td>
-              </tr>
-            </table>
-          </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <title>Simple Slider</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        <link rel="stylesheet" href="css/app.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="slider">
+            <i class="fa fa-angle-left slider-prev"></i>
+
+            <div class="slider-wrapper">
+                <div class="slider-main">
+                    <section class="ftco-section">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <!-- <div class="col-md-6 text-center mb-5"></div> -->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="content w-100">
+                                        <div class="calendar-container">
+                                            <div class="calendar">
+                                                <div class="year-header">
+                                                    <span
+                                                        class="left-button fa fa-chevron-left"
+                                                        id="prev"
+                                                    >
+                                                    </span>
+                                                    <span
+                                                        class="year"
+                                                        id="label"
+                                                    ></span>
+                                                    <span
+                                                        class="right-button fa fa-chevron-right"
+                                                        id="next"
+                                                    >
+                                                    </span>
+                                                </div>
+                                                <table
+                                                    class="months-table w-100"
+                                                >
+                                                    <tbody>
+                                                        <tr class="months-row">
+                                                            <td class="month">
+                                                                Jan
+                                                            </td>
+                                                            <td class="month">
+                                                                Feb
+                                                            </td>
+                                                            <td class="month">
+                                                                Mar
+                                                            </td>
+                                                            <td class="month">
+                                                                Apr
+                                                            </td>
+                                                            <td class="month">
+                                                                May
+                                                            </td>
+                                                            <td class="month">
+                                                                Jun
+                                                            </td>
+                                                            <td class="month">
+                                                                Jul
+                                                            </td>
+                                                            <td class="month">
+                                                                Aug
+                                                            </td>
+                                                            <td class="month">
+                                                                Sep
+                                                            </td>
+                                                            <td class="month">
+                                                                Oct
+                                                            </td>
+                                                            <td class="month">
+                                                                Nov
+                                                            </td>
+                                                            <td class="month">
+                                                                Dec
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                                <table class="days-table w-100">
+                                                    <td class="day">Sun</td>
+                                                    <td class="day">Mon</td>
+                                                    <td class="day">Tue</td>
+                                                    <td class="day">Wed</td>
+                                                    <td class="day">Thu</td>
+                                                    <td class="day">Fri</td>
+                                                    <td class="day">Sat</td>
+                                                </table>
+                                                <div class="frame">
+                                                    <table
+                                                        class="dates-table w-100"
+                                                    >
+                                                        <tbody
+                                                            class="tbody"
+                                                        ></tbody>
+                                                    </table>
+                                                </div>
+                                                <button
+                                                    class="button"
+                                                    id="add-button"
+                                                >
+                                                    Add Event
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="events-container"></div>
+                                        <div class="dialog" id="dialog">
+                                            <h2 class="dialog-header">
+                                                Add New Event
+                                            </h2>
+                                            <form class="form" id="form">
+                                                <div
+                                                    class="form-container"
+                                                    align="center"
+                                                >
+                                                    <label
+                                                        class="form-label"
+                                                        id="valueFromMyButton"
+                                                        for="name1"
+                                                        >Event name</label
+                                                    >
+                                                    <input
+                                                        class="input"
+                                                        type="text"
+                                                        id="name1"
+                                                        maxlength="36"
+                                                    />
+													<label
+                                                        class="form-label"
+                                                        id="valueFromMyButton"
+                                                        for="name2"
+                                                        >Event name</label
+                                                    >
+                                                    <input
+                                                        class="input"
+                                                        type="text"
+                                                        id="name2"
+                                                        maxlength="36"
+                                                    />
+													<label
+                                                        class="form-label"
+                                                        id="valueFromMyButton"
+                                                        for="name3"
+                                                        >Event name</label
+                                                    >
+                                                    <input
+                                                        class="input"
+                                                        type="text"
+                                                        id="name3"
+                                                        maxlength="36"
+                                                    />
+                                                    
+                                                    <input
+                                                        type="button"
+                                                        value="Cancel"
+                                                        class="button"
+                                                        id="cancel-button"
+                                                    />
+                                                    <input
+                                                        type="button"
+                                                        value="OK"
+                                                        class="button button-white"
+                                                        id="ok-button"
+                                                    />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="slider-item"></div>
+                    <div class="slider-item"></div>
+                    <div class="slider-item"></div>
+                    <div class="slider-item"></div>
+                </div>
+            </div>
+            <i class="fa fa-angle-right slider-next"></i>
         </div>
-      </div>
-      <i class="fa fa-angle-right slider-next"></i>
-    </div>
-    <ul class="slider-dots">
-      <li class="slider-dot-item active" data-index="0"></li>
-      <li class="slider-dot-item" data-index="1"></li>
-      <li class="slider-dot-item" data-index="2"></li>
-      <li class="slider-dot-item" data-index="3"></li>
-      
-    </ul>
-    <script src="./slider.js"></script>
-  </body>
+        <ul class="slider-dots">
+            <li class="slider-dot-item active" data-index="0"></li>
+            <li class="slider-dot-item" data-index="1"></li>
+            <li class="slider-dot-item" data-index="2"></li>
+            <li class="slider-dot-item" data-index="3"></li>
+        </ul>
+        <script src="js/slider.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
